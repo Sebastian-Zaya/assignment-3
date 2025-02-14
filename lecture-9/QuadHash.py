@@ -1,11 +1,11 @@
 import math
 
 class DeletedEntry:
-    """Marker to indicate that a slot in the hash table has been deleted."""
+    #Marker to indicate that a slot in the hash table has been deleted.
     pass
 
 class QuadHash:
-    """Hash table implementation using quadratic probing for collision resolution."""
+    #Hash table implementation using quadratic probing for collision resolution.
 
     def __init__(self, initial_capacity=11):
         self.capacity = initial_capacity

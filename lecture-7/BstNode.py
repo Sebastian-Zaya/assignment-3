@@ -52,9 +52,8 @@ class BstNode:
                 return self
 
     def find_min_node(self):
-        """
-        Returns the node with the minimum value in the subtree.
-        """
+        #Returns the node with the minimum value in the subtree.
+        
         current = self
         while current.left is not None:
             current = current.left
@@ -70,10 +69,9 @@ class BstNode:
         return 1 + max(left_depth, right_depth)
 
     def to_string(self):
-        """
-        Return a string representing the in-order traversal of this subtree.
-        Example: "2, 3, 5, 7"
-        """
+        #Return a string representing the in-order traversal of this subtree.
+        #Example: "2, 3, 5, 7"
+
         result = []
         if self.left:
             result.append(self.left.to_string())

@@ -4,9 +4,8 @@ import matplotlib.pyplot as plt
 from BstSet import BstSet
 
 def build_random_bst(num_elements):
-    """
-    Build and return a BstSet containing num_elements unique random values.
-    """
+    #Build and return a BstSet containing num_elements unique random values.
+    
     bst = BstSet()
     # Create a large enough range to avoid duplicates easily
     values = list(range(num_elements * 10))
