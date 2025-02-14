@@ -1,5 +1,6 @@
 from QuadHash import QuadHash
 
+
 def main():
     # Initialize the hash table
     h = QuadHash()
@@ -67,6 +68,7 @@ def main():
     final_keys = ["wolf", "cat", "dog", "lion"]
     for key in final_keys:
         print(f"  Contains '{key}'? {h.contains_key(key)}")
+
 
 if __name__ == "__main__":
     main()

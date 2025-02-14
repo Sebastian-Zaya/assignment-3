@@ -1,13 +1,10 @@
-import math
-
-
 class DeletedEntry:
     # Marker to indicate that a slot in the hash table has been deleted.
     pass
 
 
 class QuadHash:
-    # Hash table implementation using 
+    # Hash table implementation using
     # quadratic probing for collision resolution.
 
     def __init__(self, initial_capacity: int = 11) -> None:
