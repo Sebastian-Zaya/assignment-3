@@ -46,7 +46,7 @@ class BstSet:
         lines = ["digraph BST {"]
         if self.root is not None:
             # Add a label for the root
-            lines.append(f'    "{self.root.value}" [label="{self.root.value}"];')
+            lines.append(f'"{self.root.value}" [label="{self.root.value}"];')
             self.root.to_dot(lines)
         lines.append("}")
         return "\n".join(lines)
